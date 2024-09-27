@@ -1,0 +1,39 @@
+<div>
+  <h1 class="text-center mb-4">Contáctanos</h1>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="tuemail@ejemplo.com"
+        required
+      />
+      <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+      <input
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Ingresa tu contraseña"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="messageTextarea" class="form-label">Mensaje</label>
+      <textarea
+        class="form-control"
+        id="messageTextarea"
+        rows="4"
+        placeholder="Escribe tu mensaje aquí..."
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  <app-ubicacion/>
+</div>

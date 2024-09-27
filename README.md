@@ -1,27 +1,65 @@
-# LiderTrofeos
+# Proyecto - Página Web de Lider Trofeos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+Este proyecto es una página web desarrollada con **Angular** para la empresa **Lider Trofeos**. La aplicación está diseñada para ser **responsive**, garantizando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Lider Trofeos se especializa en la venta de trofeos, medallas y reconocimientos personalizados. La página web ofrece una presentación atractiva de los productos, información sobre la empresa y una sección de contacto para consultas.
 
-## Code scaffolding
+## Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Diseño Responsive**: La aplicación se adapta a diferentes tamaños de pantalla, proporcionando una experiencia fluida en dispositivos móviles y de escritorio.
+- **Catálogo de Productos**: Presentación de una lista de trofeos y medallas con imágenes y descripciones detalladas.
+- **Información de la Empresa**: Sección dedicada a la historia y los valores de Lider Trofeos.
+- **Formulario de Contacto**: Permite a los usuarios enviar consultas directamente a la empresa.
 
-## Build
+## Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular**: Framework para el desarrollo del frontend.
+- **HTML5 y CSS3**: Estructura y estilo de la aplicación.
+- **TypeScript**: Lenguaje principal utilizado en Angular.
+- **Bootstrap**: Utilizado para mejorar el diseño y la responsividad de la página.
 
-## Running unit tests
+## Instalación y Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para clonar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
-## Running end-to-end tests
+1. Clona este repositorio:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/TobiasMoreno/lider-trofeos.git
+   ```
 
-## Further help
+2. Navega al directorio del proyecto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   cd lider-trofeos
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicia la aplicación:
+
+   ```bash
+   ng serve
+   ```
+
+5. Abre la aplicación en tu navegador en `http://localhost:4200/`.
+
+## Estructura del Proyecto
+
+```plaintext
+public
+│   ├── assets/                  # Recursos estáticos (imágenes, estilos)
+src/
+├── app/
+│   ├── components/          # Componentes de la aplicación
+│   ├── services/            # Servicios para manejar la lógica de negocio
+│   ├── app.component.ts      # Componente principal
+│
+└── styles.css               # Estilos globales
+```
